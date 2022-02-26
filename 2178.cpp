@@ -48,3 +48,6 @@ int main() {
 	int dist = bfs();
 	printf("%d\n", dist);
 }
+
+//메모리초과 -> visit 에 dist 정보
+//%1d 로 입력받기
