@@ -13,33 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\dfs/bfs_basic">
+      <UniqueIdentifier>{efddd4cc-5d57-458a-be3b-6c3b04e7f8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NewFilter1">
+      <UniqueIdentifier>{8bca26a5-1220-41ed-8076-dabf251e4391}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10845.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="10828.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1012.cpp">
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
     </ClCompile>
     <ClCompile Include="1260.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2178.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2644.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
     </ClCompile>
     <ClCompile Include="1963.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2644.cpp">
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
     </ClCompile>
     <ClCompile Include="2667.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
     </ClCompile>
     <ClCompile Include="7576.cpp">
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="10828.cpp">
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="10845.cpp">
+      <Filter>소스 파일\dfs/bfs_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="1113.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1012.cpp">
+    <ClCompile Include="1197.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1068.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1922.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13418.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
