@@ -16,8 +16,14 @@
     <Filter Include="소스 파일\dfs/bfs_basic">
       <UniqueIdentifier>{efddd4cc-5d57-458a-be3b-6c3b04e7f8a3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\NewFilter1">
+    <Filter Include="소스 파일\dfs/bfs_advanced">
       <UniqueIdentifier>{8bca26a5-1220-41ed-8076-dabf251e4391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\mst_basic">
+      <UniqueIdentifier>{247da407-f096-47c8-9954-77a7a560da26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\dp_basic">
+      <UniqueIdentifier>{2a3f19d8-d50c-4cf3-997b-a63f3152c9a4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -49,18 +55,60 @@
       <Filter>소스 파일\dfs/bfs_basic</Filter>
     </ClCompile>
     <ClCompile Include="1113.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1197.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\dfs/bfs_advanced</Filter>
     </ClCompile>
     <ClCompile Include="1068.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\mst_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="1197.cpp">
+      <Filter>소스 파일\mst_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="1647.cpp">
+      <Filter>소스 파일\mst_basic</Filter>
     </ClCompile>
     <ClCompile Include="1922.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\mst_basic</Filter>
     </ClCompile>
     <ClCompile Include="13418.cpp">
+      <Filter>소스 파일\mst_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="1149.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2156.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2193.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2579.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2747.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="9095.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="10870.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="11726.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="11399.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11047.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10610.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1049.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1138.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,7 +22,7 @@ int main() {
 	int n, m,k=0;
 	int ans;
 	scanf("%d %d", &n, &m);
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i <=n; i++)
 		parent[i] = i;
 	for (int i = 0; i <= m; i++) {
 		int u, v, c;
@@ -42,7 +42,7 @@ int main() {
 	}
 	ans = k*k;
 	k = 0;
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i <=n; i++)
 		parent[i] = i;
 	for (int i = ve.size()-1; i>=0; i--) {//내리막 많이
 		int u = ve[i].second.first;
@@ -57,3 +57,5 @@ int main() {
 	ans -= k * k;
 	printf("%d\n",ans);
 }
+
+//n 과 m에 포함되지 않는 0 노드, 0 - 1 edge가 있어서 조심해야했다.
