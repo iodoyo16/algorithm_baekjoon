@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\dp_basic">
       <UniqueIdentifier>{2a3f19d8-d50c-4cf3-997b-a63f3152c9a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\greedy/math">
+      <UniqueIdentifier>{fe2106a7-1ce1-4e65-b5fe-2cb2bdb94520}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1012.cpp">
@@ -96,19 +99,34 @@
     <ClCompile Include="11726.cpp">
       <Filter>소스 파일\dp_basic</Filter>
     </ClCompile>
-    <ClCompile Include="11399.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1463.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
     </ClCompile>
-    <ClCompile Include="11047.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1932.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
     </ClCompile>
-    <ClCompile Include="10610.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1010.cpp">
+      <Filter>소스 파일\dp_basic</Filter>
     </ClCompile>
     <ClCompile Include="1049.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\greedy/math</Filter>
     </ClCompile>
     <ClCompile Include="1138.cpp">
+      <Filter>소스 파일\greedy/math</Filter>
+    </ClCompile>
+    <ClCompile Include="2163.cpp">
+      <Filter>소스 파일\greedy/math</Filter>
+    </ClCompile>
+    <ClCompile Include="10610.cpp">
+      <Filter>소스 파일\greedy/math</Filter>
+    </ClCompile>
+    <ClCompile Include="11047.cpp">
+      <Filter>소스 파일\greedy/math</Filter>
+    </ClCompile>
+    <ClCompile Include="11399.cpp">
+      <Filter>소스 파일\greedy/math</Filter>
+    </ClCompile>
+    <ClCompile Include="9205.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
