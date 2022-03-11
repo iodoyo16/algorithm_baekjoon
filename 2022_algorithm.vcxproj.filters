@@ -28,6 +28,15 @@
     <Filter Include="소스 파일\greedy/math">
       <UniqueIdentifier>{fe2106a7-1ce1-4e65-b5fe-2cb2bdb94520}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\djistra">
+      <UniqueIdentifier>{b93cf132-c682-4fcd-b5dd-c14237d793e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\string/map/set">
+      <UniqueIdentifier>{83400f44-d2c1-48a2-a77a-b395dc1ea4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\floyd-washall">
+      <UniqueIdentifier>{40ede1bb-45a4-4ba8-8482-38d590157a36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1012.cpp">
@@ -129,17 +138,29 @@
     <ClCompile Include="9205.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11656.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1753.cpp">
+      <Filter>소스 파일\djistra</Filter>
     </ClCompile>
-    <ClCompile Include="1764.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1916.cpp">
+      <Filter>소스 파일\djistra</Filter>
+    </ClCompile>
+    <ClCompile Include="12834.cpp">
+      <Filter>소스 파일\djistra</Filter>
+    </ClCompile>
+    <ClCompile Include="11656.cpp">
+      <Filter>소스 파일\string/map/set</Filter>
     </ClCompile>
     <ClCompile Include="1620.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\string/map/set</Filter>
     </ClCompile>
-    <ClCompile Include="1753.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1764.cpp">
+      <Filter>소스 파일\string/map/set</Filter>
+    </ClCompile>
+    <ClCompile Include="1389.cpp">
+      <Filter>소스 파일\floyd-washall</Filter>
+    </ClCompile>
+    <ClCompile Include="11780.cpp">
+      <Filter>소스 파일\floyd-washall</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
