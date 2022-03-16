@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\floyd-washall">
       <UniqueIdentifier>{40ede1bb-45a4-4ba8-8482-38d590157a36}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\treedp">
+      <UniqueIdentifier>{a9201d71-fb85-4c1a-95aa-ddad779ad6f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1012.cpp">
@@ -166,6 +169,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2224.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14267.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12784.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5569.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15976.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
