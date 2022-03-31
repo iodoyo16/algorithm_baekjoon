@@ -1,4 +1,49 @@
 #define _CRT_SECURE_NO_WARNINGS
+#include<cstdio>
+#include<vector>
+#include<algorithm>
+#include<queue>
+using namespace std;
+typedef pair<int, int>ii;
+vector<vector<ii> > v;
+priority_queue<ii>pq;
+int visit[1010];
+int main() {
+	int n, m,cnt=0,ans=0;
+	scanf("%d", &n);
+	v.resize(n + 1);
+	scanf("%d", &m);
+	for (int i = 0; i < m; i++) {
+		int v1, v2, cost;
+		scanf("%d %d %d", &v1, &v2, &cost);
+		v[v1].push_back(ii(cost, v2));
+		v[v2].push_back(ii(cost, v1));
+	}
+	cnt++;
+	visit[1] = 1;
+	for (int i = 0; i < v[1].size(); i++) {
+		int next = v[1][i].second;
+		int cost = v[1][i].first;
+		pq.push(ii(-cost, next));
+	}
+	while(cnt<n){
+		int cur = pq.top().second;
+		int cost = pq.top().first;
+		pq.pop();
+		if (visit[cur] == 1)
+			continue;
+		visit[cur] = 1;
+		cnt++;
+		ans += cost;
+		for (int i = 0; i < v[cur].size(); i++) {
+			int next = v[cur][i].second;
+			int ncost = v[cur][i].first;
+			pq.push(ii(-ncost,next));
+		}
+	}
+	printf("%d", -ans);
+}
+/*
 #include<stdio.h>
 #include<vector>
 #include<queue>
@@ -40,7 +85,7 @@ int main() {
 		}
 	}
 	printf("%d\n",ans);
-}
+}*/
 /*
 typedef pair<int, int> ii;
 vector<vector <ii> > vv;
